@@ -1,7 +1,7 @@
 {
-    "name": "Adafruit_LEDBackpack",
-    "version": "0.0.31",
-    "author": "beefbowl <dev020@gmail.com>",
+    "name": "adafruit-led-backpack",
+    "version": "1.0.0",
+    "author": "Tim Caswell <tim@creationix.com>",
     "license": "MIT",
     "description": "Forked from Adafruit's LED Backpack library, for SparkCore"
 }
