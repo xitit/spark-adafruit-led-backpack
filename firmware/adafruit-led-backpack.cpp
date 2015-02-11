@@ -26,8 +26,8 @@
   #include <Wire.h>
  #endif
 #endif
-#include "Adafruit_LEDBackpack.h"
-#include "Adafruit_GFX.h"
+#include "adafruit-led-backpack.h"
+#include "adafruit-gfx/adafruit-gfx.h"
 
 #ifndef _BV
   #define _BV(bit) (1<<(bit))
