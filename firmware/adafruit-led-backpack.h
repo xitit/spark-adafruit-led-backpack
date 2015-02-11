@@ -34,7 +34,7 @@
  #endif
 #endif
 
-#include "adafruit-gfx/adafruit-gfx.h"
+#include "adafruit-gfx.h"
 
 #define LED_ON 1
 #define LED_OFF 0

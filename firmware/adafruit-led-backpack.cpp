@@ -27,7 +27,6 @@
  #endif
 #endif
 #include "adafruit-led-backpack.h"
-#include "adafruit-gfx/adafruit-gfx.h"
 
 #ifndef _BV
   #define _BV(bit) (1<<(bit))
