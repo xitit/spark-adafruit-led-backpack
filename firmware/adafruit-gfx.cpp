@@ -403,6 +403,8 @@ void Adafruit_GFX::drawXBitmap(int16_t x, int16_t y,
   }
 }
 
+#ifdef SPARK
+size_t Adafruit_GFX::write(uint8_t c) {
 #if ARDUINO >= 100
 size_t Adafruit_GFX::write(uint8_t c) {
 #else
@@ -421,6 +423,8 @@ void Adafruit_GFX::write(uint8_t c) {
       cursor_x = 0;
     }
   }
+#ifdef SPARK
+  return 1;
 #if ARDUINO >= 100
   return 1;
 #endif

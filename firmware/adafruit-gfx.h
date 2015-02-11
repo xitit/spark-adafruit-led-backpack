@@ -63,6 +63,8 @@ class Adafruit_GFX : public Print {
     setTextWrap(boolean w),
     setRotation(uint8_t r);
 
+#ifdef SPARK
+  virtual size_t write(uint8_t);
 #if ARDUINO >= 100
   virtual size_t write(uint8_t);
 #else
