@@ -20,7 +20,6 @@
   BSD license, all text above must be included in any redistribution
  ****************************************************/
 
-// This #include statement was automatically added by the Spark IDE.
 #include "adafruit-led-backpack/adafruit-led-backpack.h"
 
 Adafruit_BicolorMatrix matrix = Adafruit_BicolorMatrix();
