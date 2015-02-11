@@ -242,7 +242,7 @@ void Adafruit_AlphaNum4::writeDigitRaw(uint8_t n, uint16_t bitmask) {
 }
 
 void Adafruit_AlphaNum4::writeDigitAscii(uint8_t n, uint8_t a,  boolean d) {
-  uint16_t font = pgm_read_word(alphafonttable+a);
+  uint16_t font = alphafonttable[a];
 
   displaybuffer[n] = font;
 
