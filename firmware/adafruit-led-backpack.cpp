@@ -22,7 +22,7 @@
  #include <TinyWireM.h>
  #define Wire TinyWireM
 #else
- #ifndef spark
+ #ifndef SPARK
   #include <Wire.h>
  #endif
 #endif
